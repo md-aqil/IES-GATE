@@ -72,10 +72,12 @@
     }
 
     .enroll-box.left:before {
-        width: 100%;
+               content: none;
+
     }
     .enroll-box.right:before {
-        width: 100%;
+      content: none;
+
     }
 
     .sqbox {
@@ -137,4 +139,47 @@
     width: 140px;
     margin: 10px;
 }
+
+.enroll-box {
+
+  background: #ffbb96;
+  padding: 15px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+ .navbar-items {
+  flex-direction: column;
+
+}
+
+.stripbar ul {
+  flex-wrap: nowrap;
+  overflow: auto;
+}
+.right-heading {
+ padding-right: 40px;
+  width: 100%;
+}
+
+.stripbar ul a {
+ 
+  white-space: nowrap;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.or-devide {
+  font-size: 15px;
+}
+.or-devide div:not(.or) {
+  background: #FF9472;
+  padding: 6px 6px;
+  margin: 0 5px;
+  border-radius: 10px;
+}
+.hero-banner {
+ 
+  background-size: cover;
+}
+
 }
