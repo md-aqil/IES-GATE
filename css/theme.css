@@ -16,7 +16,7 @@ h1,h2,h3,h4 {
     --theme-dard:#212121;
     --bg-color: #FFDBCC;
     --theme-color2: #571882;
-	--reveal-color: darkorange;
+	--reveal-color: #ff9f5e;
 	--text-dard: #212121;
 	--light-color:#888888;
 	--text-color:#676767;
@@ -110,7 +110,7 @@ body {
 .stripbar ul  a {
     text-decoration: none;
     font-weight: normal;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 36px;
     text-align: left;
     color: #000;
@@ -130,8 +130,8 @@ body {
    margin: 0 20px;
 }
 
-.logo img {
-    width: 300px;
+.logo-img {
+    width: 350px;
 }
 
 
@@ -581,4 +581,68 @@ blockquote.quote {
     width: 100%;
     height: 100%;
     padding: 50px 15px;
+}
+
+.site-footer {
+    background: #000;
+    padding: 30px 0;
+}
+.site-footer li a {
+    color: #fff;
+    text-decoration: none;
+}
+.site-footer ul h4 {
+    color: var(--theme-color);
+    margin-top: 0;
+}
+.site-footer li {
+    font-size: 16px;
+}
+
+.attach-input {
+    position: relative;
+    display: flex;
+}
+.attach-input input{
+    height: 40px;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    padding: 5px 15px;
+}
+
+.attach-input button {
+    background: #FAB702;
+    color: #fff;
+    border: none;
+    outline: 0;
+    height: 40px;
+    padding: 6px 20px;
+    font-size: 16px;
+}
+
+.sbs-col {
+    width: 30%;
+    display: flex;
+   justify-content: center;
+    flex-direction: column;
+}
+
+.copywrite {
+    color: #fff;
+    font-size: 14px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.mobile-menu {
+    display: none;
+}
+.accr-item {
+    display: none;
+}
+
+.subscribe {
+    margin-top: -50px;
 }

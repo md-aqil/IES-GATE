@@ -182,4 +182,63 @@
   background-size: cover;
 }
 
+.mobile-menu {
+  display: block;
+}
+.mobile-menu img {
+  width: 30px ! important;
+}
+.logo img {
+  width: 250px;
+}
+
+.logo {
+  display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.navbar-items {
+  flex-direction: column;
+    background: #fff;
+    width: 100%;
+    position: absolute;
+    list-style: none;
+    transform-origin: top;
+    animation-fill-mode: forwards;
+    -webkit-transform: scaleY(0);
+    display: block;
+    transition: all .1s ease-out;
+    box-shadow: 0 5px 8px 0 #0000004a;
+    width: 100%;
+    background: #fff;
+    z-index: 10000;
+    margin-top: 10px;
+    padding: 10px 0px;
+    border-radius: 5px;
+    top: 50px;
+
+
+}
+.navbar-items.open {
+  -webkit-transform: scale(1); 
+  -moz-transform: scale(1);
+   transform: scale(1); 
+}
+
+
+
+
+.navbar-items li a {
+  
+  font-size: 16px;
+  color: #000;
+}
+
+
+
+
+
+
+
 }

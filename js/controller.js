@@ -161,6 +161,11 @@ $(this).css({
 });                  
 });
 
+$('.mobile-menu').click(function () {
+	$('.navbar-items').toggleClass('open');
+})
+
+
 $('.accordian .accordian-title').click(function() {
 	$(this).parent('li').toggleClass('active');
 	$(this).parents('li').find('.ac-detail-item').slideToggle();
@@ -208,4 +213,15 @@ $('.tabs a').click(function(e){
     $(target).show();
   
 })
-    
+ScrollOut({
+	cssProps: {
+	  visibleY: true,
+	  viewportY: true
+	},
+	targets: ".scrollable-pane",
+  });
+  
+
+  $('.c-accr li').click(function () {
+	$(this).find('.accr-item').slideToggle().siblings().slideUp();
+})
