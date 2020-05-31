@@ -1,0 +1,140 @@
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+    //CSS
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    //CSS
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    //CSS
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    //CSS
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    //CSS
+    
+  }
+
+
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    .flex-col.col-6 {
+        max-width: 100%;
+        width: 100%;
+    }
+    .flex-row {
+        flex-direction: column;
+    }
+
+    .enroll-box.left:before {
+        width: 100%;
+    }
+    .enroll-box.right:before {
+        width: 100%;
+    }
+
+    .sqbox {
+     
+        padding: 0px 15px;
+    }
+    .pl120 {
+        padding-left: 15px;
+    }
+    .pr120 {
+        padding-right: 15px;
+    }
+
+    .spacer {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .c-tabs {
+        padding: 10px;
+    }
+.test-table {
+    border-radius: 0;
+}
+
+.tabs {
+  
+    overflow-y: auto;
+}
+
+.rtbm {
+    max-width: 100% !important;
+    margin: 0 !important;
+    border: none !important;
+}
+
+.c-container {
+    width: 95%;
+}
+.test-table {
+    background-image: none;
+}
+
+.swiper-sq2 .swiper-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper-sq2 .swiper-slide .overlay {
+    padding: 15px;
+}
+
+.swiper-sq2 .swiper-slide {
+    position: relative;
+    height: 550px;
+}
+.toppers-list li {
+    padding: 5px;
+    width: 140px;
+    margin: 10px;
+}
+}
