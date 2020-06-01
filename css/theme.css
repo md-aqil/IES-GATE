@@ -651,3 +651,29 @@ blockquote.quote {
     width: 80%;
     
 }
+.simple-menu {
+    justify-content: space-between;
+    width: 100%;
+    display: flex;
+}
+.menu-icon {
+    display: none;
+}
+
+.simple-menu .menu-item {
+    display: flex;
+    justify-content: space-between;
+    width: 78%;
+}
+.stdc {
+    display: none;
+}
+
+.select-city li a {
+    text-decoration: none;
+    font-weight: 400;
+    color: #000;
+}
+.select-city li.active a{
+    color: var(--theme-color);
+}

@@ -225,3 +225,8 @@ ScrollOut({
   $('.c-accr li').click(function () {
 	$(this).find('.accr-item').slideToggle().siblings().slideUp();
 })
+
+
+$('.simple-menu .menu-icon').click(function () {
+	$(this).parents('.simple-menu').find('.menu-item').slideToggle();
+})

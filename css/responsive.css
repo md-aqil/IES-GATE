@@ -102,10 +102,7 @@
     border-radius: 0;
 }
 
-.tabs {
-  
-    overflow-y: auto;
-}
+
 
 .rtbm {
     max-width: 100% !important;
@@ -152,22 +149,11 @@
   flex-direction: column;
 
 }
-
-.stripbar ul {
-  flex-wrap: nowrap;
-  overflow: auto;
-}
 .right-heading {
  padding-right: 40px;
   width: 100%;
 }
 
-.stripbar ul a {
- 
-  white-space: nowrap;
-  margin-left: 10px;
-  margin-right: 10px;
-}
 .or-devide {
   font-size: 15px;
 }
@@ -235,10 +221,139 @@
   color: #000;
 }
 
+.menu-icon {
+  display: block;
+  width: 30px;
+  filter: invert(1);
+}
+.simple-menu  {
+  position: relative;
+}
+.simple-menu .menu-visible {
+  display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.simple-menu .menu-visible a {
+  font-size: 24px;
+}
+.simple-menu .menu-item {
+  display: none; 
+  position: absolute;
+  top: 43px;
+  background: #fff;
+  width: 100%;
+  flex-direction: column;
+  z-index: 100;
+  padding: 10px 21px;
+  border-radius: 3px;
+  border: none;
+  box-shadow: 0 4px 4px #0000002e;
+}
+
+.cta-label {
+  display: flex;
+  position: fixed;
+  right: 0;
+  top: inherit;
+  transform-origin: center;
+  transform: none;
+  bottom: 0;
+  width: 100%;
+  margin: auto;
+  left: 0;
+  align-items: center;
+  justify-content: center;
+  z-index: 10000;
+}
+
+.cta-label a {
+  padding: 4px 10px;
+  background: #f65e21;
+  color: #fff;
+  text-decoration: none;
+  margin: 0px 8px;
+  direction: ltr;
+  width: 50%;
+  text-align: center;
+}
+
+.test-table .tabgroup {
+  border: 1px solid var(--theme-color);
+    margin-top: 10px;
+}
+.test-table .tabs a.active {
+  position: relative;
+}
+.test-table .tabs a.active:before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 142%;
+  background: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 1px solid var(--theme-color);
+}
+.test-table .tabs a.active:after {
+  content: '';
+  display: block;
+  width: 95%;
+  height: 6px;
+  background: #fff2ec;
+  position: absolute;
+  top: 31px;
+  left: -1px;
+  margin: auto;
+  right: 0;
+}
+
+.site-footer .simple-list h4 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.social-col {
+
+}
+
+.flex-inline-mobile {
+  display: flex;
+  justify-content: space-between;
+}
+.subscribe {
+  margin-top: 0;
+}
+
+.sbs-col {
+  width: 100%;
+ 
+}
 
 
+.copywrite {
+ 
+  position: relative;
+  bottom: 5px;
+}
 
+.video-loop {
+  width: 100%;
+}
+.stdc {
+  position: absolute;
+  top: 77px;
+  font-size: 16px;
+  background: #fff2ea;
+  padding: 0 30px;
+  display: block;
+}
 
-
+.mth {
+  margin: 0;
+  padding-bottom: 30px;
+}
 
 }
