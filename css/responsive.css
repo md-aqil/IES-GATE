@@ -356,4 +356,13 @@
   padding-bottom: 30px;
 }
 
+.right-heading {
+  padding-right: 15px;
+  width: 100%;
+  text-align: center;
+}
+.quote {
+  position: relative;
+  padding: 15px 15px;
+}
 }
