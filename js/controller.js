@@ -230,3 +230,31 @@ ScrollOut({
 $('.simple-menu .menu-icon').click(function () {
 	$(this).parents('.simple-menu').find('.menu-item').slideToggle();
 })
+
+
+
+$('#news-ticker').marquee({
+
+	// enable the plugin
+	enable : true,  //plug-in is enabled
+
+	// scroll direction
+	// 'vertical' or 'horizontal'
+	direction: 'vertical',
+
+	// children items
+	itemSelecter : 'li', 
+
+	// animation delay
+	delay: 1000,
+
+	// animation speed
+	speed: 1,
+
+	// animation timing
+	timing: 1,
+
+	// mouse hover to stop the scroller
+	mouse: true
+
+	});  
