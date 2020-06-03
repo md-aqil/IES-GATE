@@ -761,3 +761,11 @@ blockquote.quote {
     position: relative;
     padding: 0 50px;
 }
+
+header {
+    background: var(--theme-color);
+}
+
+.hero-banner header {
+    background: transparent;
+}
