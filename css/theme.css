@@ -725,6 +725,7 @@ blockquote.quote {
 .testi-content {
     position: relative;
     padding: 0 80px;
+    text-align: center;
 }
 .testi-content:before {
     content: '';
