@@ -853,6 +853,7 @@ ul.vtabs {
     /* padding-right: 25px; */
     background: #f5d1c0;
     margin-right: 35px;
+    /* display: none; */
 }
 .read {
     font-size: 17px;
@@ -867,8 +868,26 @@ ul.vtabs li a {
     padding: 10px 12px;
     border-left: 2px solid var(--theme-color);
     margin: 4px 0;
+    position: relative;
+    padding-left: 28px;
 }
+ul.vtabs li a:after {
+    content: '';
+    width: 15px;
+    height: 15px;
+    background: url(../img/icons/next.svg) center no-repeat;
+    display: block;
+    position: absolute;
+    z-index: 1;
+    background-size: 100%;
+    top: 15px;
+    left: 5px;
+}
+ul.vtabs li a.active:after {
+    background: url(../img/next.png) center no-repeat;
+    background-size: 100%;
 
+}
 
 ul.vtabs li a:hover {
     color:var(--theme-color);
@@ -879,6 +898,7 @@ ul.vtabs li a.active {
 
 	
 }
+
 .group:before,
 .group:after {
     content: " "; /* 1 */

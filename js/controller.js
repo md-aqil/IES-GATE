@@ -237,7 +237,10 @@ $('#news-ticker').marquee({
 	});  
 
 
+	$('.vtab-content').hide();
 
+	$('.vtab-content:first-of-type').show();
+	
 	(function($) {
 
 		var tabs =  $(".vtabs li a");
