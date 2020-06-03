@@ -236,3 +236,18 @@ $('#news-ticker').marquee({
 
 	});  
 
+
+
+	(function($) {
+
+		var tabs =  $(".vtabs li a");
+	  
+		tabs.click(function() {
+			var content = this.hash.replace('/','');
+			tabs.removeClass("active");
+			$(this).addClass("active");
+		$("#content").find('.vtab-content').hide();
+		$(content).fadeIn(200);
+		});
+	
+	})(jQuery);

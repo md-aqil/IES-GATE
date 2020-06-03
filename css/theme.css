@@ -840,3 +840,57 @@ header {
     margin-top: 13px;
     
 }
+
+.vwrap 
+{
+    display: flex;
+}
+ul.vtabs {
+    list-style: none;
+    padding: 0;
+    width: 30%;
+    flex-shrink: 0;
+    /* padding-right: 25px; */
+    background: #f5d1c0;
+    margin-right: 35px;
+}
+.read {
+    font-size: 17px;
+    line-height: 1.9;
+}
+ul.vtabs li a {
+    position: relative;
+    display: block;
+    font-size: 18px;
+    text-decoration: none;
+    color: #000;
+    padding: 10px 12px;
+    border-left: 2px solid var(--theme-color);
+    margin: 4px 0;
+}
+
+
+ul.vtabs li a:hover {
+    color:var(--theme-color);
+}
+ul.vtabs li a.active {
+
+    color:var(--theme-color);
+
+	
+}
+.group:before,
+.group:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+.group:after {
+    clear: both;
+}
+.vlabel {
+    background: var(--theme-color);
+    margin: 0;
+    padding: 10px;
+    color: #fff;
+    font-size: 21px;
+}
