@@ -127,17 +127,14 @@ body {
     text-align: left;
     color: #fff;
     font-weight: 600;
-   margin: 0 20px;
+   margin: 0 15px;
 }
 
 .logo-img {
-    width: 350px;
+    width: 300px;
 }
 
 
-.navbar-items li a:last-child {
-    margin-right: 0;
-}
 
 .c-navbar {
     display: flex;
@@ -173,11 +170,13 @@ body {
     align-items: center;
 }
 
-.or-devide div:not(.or) {
+.or-devide a {
     background: #FF9472;
     padding: 6px 25px;
     margin: 0 12px;
     border-radius: 10px;
+    text-decoration: none;
+    color: #fff;
 }
 .text-right {
     text-align: right;
@@ -768,4 +767,76 @@ header {
 
 .hero-banner header {
     background: transparent;
+}
+
+
+  .drop {
+    position: relative;
+    margin-right: 10px;
+  }
+  .drop .drop-menu {
+      z-index: 1000;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    position: absolute;
+    left: 13px;
+    top: 40px;
+    -webkit-transition: all 0.2s cubic-bezier(0.680, 0, 0.265, 1);
+    transition: all 0.2s;
+    -webkit-transform: scale(0);
+            transform: scale(0);
+    -webkit-transform-origin: 0 0;
+            transform-origin:top left;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 8px 0 rgba(0, 0, 0, 0.12);
+  }
+
+  .drop .drop-menu li {
+    display: block;
+    width: 100%;
+    opacity: 0;
+    transform: translate(-20px, 0px);
+   
+  }
+  .drop.open .drop-menu li {
+    display: block;
+     transition: all .4s;
+    opacity: 1;
+    transform: translate(0px, 0);
+
+      
+  }
+  .drop ul li a {
+    width: 100%;
+    /* padding: 1em 18px; */
+    white-space: pre;
+    box-sizing: border-box;
+    color: #000;
+    display: block;
+    margin: 0;
+    padding: 5px 20px;
+  }
+  .drop ul li a:hover {
+    background: #ebebeb;
+  }
+   .nav ul{
+    padding: 0;
+  }
+
+  .drop.open .drop-menu {
+    -webkit-transform: scale(1);
+      transform: scale(1);
+      transition-timing-function: cubic-bezier(0.680, 0, 0.265, 1);
+  }
+.drop:after {
+    content: "";
+    background: url(../img/icons/down-arrow.svg);
+    background-repeat: no-repeat;
+    width: 12px;
+    height: 11px;
+    position: absolute;
+    right: -1px;
+    top: 0;
+    margin-top: 13px;
+    
 }
