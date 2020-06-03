@@ -747,11 +747,16 @@ blockquote.quote {
     background-size: 100%;
     background-repeat: no-repeat;
   right: 0;
-    top: 0;
+  bottom: 0;
 }
 
 .swiper-pagination-bullet {
     width: 12px;
     height: 12px;
   
+}
+
+.testi-content {
+    position: relative;
+    padding: 0 50px;
 }

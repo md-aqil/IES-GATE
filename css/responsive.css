@@ -365,4 +365,18 @@
   position: relative;
   padding: 15px 15px;
 }
+
+.cta-wrapper {
+  position: relative;
+  height: 550px;
+}
+.cta-wrapper img {
+  width: 100%;
+  height: 100%;
+}
+
+.cta-wrapper .overlay {
+  padding: 0 15px;
+}
+
 }
