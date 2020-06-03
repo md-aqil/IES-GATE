@@ -1,4 +1,33 @@
 
+	var swiper = new Swiper('.swiper-container.pcr', {
+		spaceBetween: 10,
+
+		pagination: {
+		  el: '.swiper-pagination',
+		  dynamicBullets: false,
+	clickable: true,
+		},
+	  });
+
+	  
+	var swiper = new Swiper('.swiper-container.pcr2', {
+		spaceBetween: 10,
+		pagination: {
+		  el: '.swiper-pagination',
+		  dynamicBullets: false,
+	clickable: true,
+		},
+	  });
+
+
+var swiper = new Swiper('.swiper-container.testimonial', {
+	spaceBetween: 10,
+  pagination: {
+	el: '.swiper-pagination',
+	dynamicBullets: false,
+	clickable: true,
+  },
+});
 
 
 MicroModal.init();
@@ -186,6 +215,10 @@ ScrollOut({
 	  clickable: true,
 	},
   });
+
+
+
+
   var swiper = new Swiper('.swiper-container.swiper-sq2', {
 	spaceBetween: 10,
   pagination: {
@@ -194,6 +227,20 @@ ScrollOut({
 	clickable: true,
   },
 });
+
+
+
+  
+  var swiper = new Swiper('.swiper-container.swiper-sq3', {
+	spaceBetween: 10,
+  pagination: {
+	el: '.swiper-pagination',
+	dynamicBullets: false,
+	clickable: true,
+  },
+});
+
+
 
  
 //   tab
@@ -213,6 +260,16 @@ $('.tabs a').click(function(e){
     $(target).show();
   
 })
+
+
+
+
+
+
+
+
+
+
 ScrollOut({
 	cssProps: {
 	  visibleY: true,
@@ -258,3 +315,4 @@ $('#news-ticker').marquee({
 	mouse: true
 
 	});  
+
